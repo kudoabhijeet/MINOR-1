@@ -1,6 +1,6 @@
 # Intelligent decision-making Chatbot
 
-### 1. Introduction
+### Introduction
 **Problem Statement**
 
 Artificial intelligence chatbot is a technology that makes interactions between man
@@ -17,7 +17,3 @@ with the chatbot.
 The tree is then traversed with the conditions and preferences given by the user and throws out probable results. 
 A mapping algorithm which maps the user inputs into respective nodes of the tree and is updated/traversed at user discretion. 
 
-
-
-### 2. Project Structure
-### 3. References
