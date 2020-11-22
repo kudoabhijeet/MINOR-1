@@ -5,9 +5,13 @@
 
 char *get();
 char input[120];
-void main()
-{
-    printf("Bot : hello sir Bot at your service\n");
+// void main()
+// {
+//     getch();
+// }
+
+void bot() {
+    printf("Chatbot now active...\n\n");
     while(1)
     {
         get();

@@ -2,6 +2,7 @@
 //  1. import custom header files
 
 #include<stdio.h>
+#include "bot.h"
 
 void menu(){
     int choice;
@@ -21,6 +22,7 @@ void menu(){
         break;
     case 2:
         printf("Starts the Chatbot");
+        bot(); // import from "bot.h"
         break;
     case 3:
         printf("Thank you! \n Bye!");
@@ -30,12 +32,12 @@ void menu(){
 
         break;
     }
-
 }
 
 int main()
 {
     printf("WELCOME TO THE INTELLIGENT DECISION MAKING CHATBOT...\n\n");
     menu();
+
     return 0;
 }
