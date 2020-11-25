@@ -3,15 +3,30 @@
 #include <string.h>
 #include <process.h>
 
-char *get();
-char input[120];
-// void main()
-// {
-//     getch();
-// }
+void healthcare(){
+    printf("You've selected Mobile Catagory\n");
+    printf("BOT : What kind ")
+}
+
+void read_data(int category){
+    if(category == 1){
+        // Mobile
+        mobile();
+    }
+    elseif(category == 2){
+        // Healthcare
+        healthcare();
+    }
+    else {
+        printf("Invalid Input!!\n");
+    }
+}
 
 void bot() {
     printf("Chatbot now active...\n\n");
+    int ch;
+    read_data(ch);
+    
     while(1)
     {
         get();
@@ -50,3 +65,6 @@ char *get(void){
     gets(input);
     return input;
 }
+
+// Get input from user and enter as a node into a tree
+// get a string representation and compare with excel sheet data
