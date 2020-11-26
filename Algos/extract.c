@@ -19,7 +19,8 @@ const char* read_sheet(){
             if(sheet)
             {
                 for(int i = 1; i< 2; i++) {
-                s = xlSheetReadStr(sheet, i,1,0);
+                s = xlSheetReadStr(sheet, 2,0,0);
+                printf("%s\n",s);
                 }
                 
             }

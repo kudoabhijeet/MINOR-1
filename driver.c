@@ -22,7 +22,7 @@ void menu(){
         break;
     case 2:
         printf("Starts the Chatbot");
-        // bot(); // import from "bot.h"
+        read_sheet();
         break;
     case 3:
         printf("Thank you! \n Bye!");
