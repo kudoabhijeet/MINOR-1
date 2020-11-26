@@ -2,14 +2,15 @@
 //  1. import custom header files
 
 #include<stdio.h>
-// #include "bot.h"
+#include "chatbot.h"
 
 void menu(){
     int choice;
     printf("Choose an option :\n");
     printf("1. About Me\n");
-    printf("2. Start\n");
-    printf("3. Exit\n");
+    printf("2. Mobile\n");
+    printf("3. Health\n");
+    printf("4. Exit\n");
     scanf("%d", &choice);
     printf("Your choice : %d\n", choice);
 
@@ -21,15 +22,18 @@ void menu(){
         printf("Get assisted while making daily life decisions. \nEnter your requirements and specifications in simple yes and no, and get your desired output.");
         break;
     case 2:
-        printf("Starts the Chatbot");
-        read_sheet();
+        printf("MOBILES\n");
+        mobile();
         break;
     case 3:
-        printf("Thank you! \n Bye!");
+        printf("HEALTH\n");
+        healthcare();
         break;
-
+    case 4:
+        printf("THANK YOU! \n\n");
+        break;
     default:
-
+        printf("Invalid Input!\n");
         break;
     }
 }
