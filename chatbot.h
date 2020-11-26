@@ -99,7 +99,7 @@ void healthcare(){
         xlBookRelease(book);
 }
 
-const char* mobile(){
+void mobile(){
     char ch;
     char answers[10];
     //fflush(stdin);
